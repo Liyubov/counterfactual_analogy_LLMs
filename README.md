@@ -2,6 +2,14 @@
 
 Code for the paper Using Counterfactual Tasks to Evaluate the Generality of Analogical Reasoning in Large Language Models
 
+## Testing the dependencies on tokenisation 
+
+We are testing the influence of tokenisation on success of the GPT (OpenAI models) to pass the intelligence analogy tests. 
+
+Ideas: a) before comparing the humans and machines, we need to make them on the comparable basis (e.g. machines may not understand the task simply by not parsing the task correctly, hence one needs to extend the tokenisation process for the models).
+b) if the tokenisation types are not influencing the response rates of OpenAI models, then the models seem to be stable.
+
+
 ## Prerequisites
 
 - Python 3
